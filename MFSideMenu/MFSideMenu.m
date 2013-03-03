@@ -442,10 +442,10 @@ typedef enum {
 #pragma mark - Menu Rotation
 
 - (void) orientSideMenuFromStatusBar {
-    CGRect newFrame = self.rootViewController.view.window.bounds;
-    newFrame = self.rootViewController.view.window.screen.applicationFrame;
-    self.menuContainerView.transform = self.navigationController.view.transform;
-    self.menuContainerView.frame = newFrame;
+//    CGRect newFrame = self.rootViewController.view.window.bounds;
+//    newFrame = self.rootViewController.view.window.screen.applicationFrame;
+//    self.menuContainerView.transform = self.navigationController.view.transform;
+//    self.menuContainerView.frame = newFrame;
 }
 
 - (void)statusBarOrientationDidChange:(NSNotification *)notification {
